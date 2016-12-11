@@ -2,8 +2,8 @@
 <!-- Set your package name here -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="in.celest.xash3d.poke646"
-      android:versionCode="1"
-      android:versionName="1.0">
+      android:versionCode="75"
+      android:versionName="1.0.1">
     <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="23"/>
     <!-- Set your application name here -->
     <application android:label="Poke646"
