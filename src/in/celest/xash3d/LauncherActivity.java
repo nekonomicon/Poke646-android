@@ -33,6 +33,7 @@ public class LauncherActivity extends Activity {
         titleView.setTextAppearance(this, android.R.attr.textAppearanceLarge);
         cmdArgs = new EditText(this);
         cmdArgs.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
+	cmdArgs.setSingleLine(true);
 		Button startButton = new Button(this);
 		// Set launch button title here
 		startButton.setText("Launch " + "Poke646" + "!");
