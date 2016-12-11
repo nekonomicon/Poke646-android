@@ -64,7 +64,6 @@ public class LauncherActivity extends Activity {
 		SharedPreferences.Editor editor = mPref.edit();
 		editor.putString("argv", cmdArgs.getText().toString());
 		editor.commit();
-		editor.apply();
 		if(cmdArgs.length() != 0) intent.putExtra("argv", cmdArgs.getText().toString());
 		// Uncomment to set gamedir here
 		intent.putExtra("gamedir", "poke646" );
