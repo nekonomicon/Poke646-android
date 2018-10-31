@@ -4,10 +4,10 @@
       package="in.celest.xash3d.poke646"
       android:versionCode="144"
       android:versionName="1.0.2">
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="23"/>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23"/>
     <!-- Set your application name here -->
     <application android:label="Poke646"
-		 android:debuggable="true"
+		 android:debuggable="false"
 		 android:icon="@drawable/logo_xash_poke646">
     <!-- Set your launcher title here -->
         <activity android:name="in.celest.xash3d.LauncherActivity"
