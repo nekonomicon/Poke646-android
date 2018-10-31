@@ -1,4 +1,4 @@
-package su.xash.xash3d;
+package in.celest.xash3d;
 
 import android.app.Activity;
 import android.app.AlertDialog;
